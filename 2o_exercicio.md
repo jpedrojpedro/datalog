@@ -1,4 +1,4 @@
-## 1º Exercício
+## 2º Exercício
 
 Aluno: João Pedro Valladão Pinheiro <br/>
 Email: [jpinheiro@puc-rio.br](mailto:jpinheiro@puc-rio.br)
