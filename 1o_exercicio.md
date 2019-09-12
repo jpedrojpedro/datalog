@@ -1,22 +1,22 @@
 ## 1º Exercício
 
-Aluno: João Pedro Valladão Pinheiro \
+Aluno: João Pedro Valladão Pinheiro <br/>
 Email: [jpinheiro@puc-rio.br](mailto:jpinheiro@puc-rio.br)
 
 ### Descrição:
 
-Pesquisa sobre Sistemas Datalog existentes e disponíveis para uso e/ou teste. Pode ser web-based   \
-ou com instalador para uso local. Resumir sobre o sistema, eventuais limites, como se faz para     \
-usar, eventuais dicas de sintaxe e, se possível, mostrar como rodar uma consulta recursiva como a  \
+Pesquisa sobre Sistemas Datalog existentes e disponíveis para uso e/ou teste. Pode ser web-based <br/>
+ou com instalador para uso local. Resumir sobre o sistema, eventuais limites, como se faz para <br/>
+usar, eventuais dicas de sintaxe e, se possível, mostrar como rodar uma consulta recursiva como a <br/>
 do fecho transitivo.
 
 ### Resultados:
 
-Foram encontrados **quatro** sistemas que abordam a linguagem Datalog de maneiras distintas.       \
+Foram encontrados **quatro** sistemas que abordam a linguagem Datalog de maneiras distintas. <br/>
 São eles:
 
 - [Datalog Educational System](http://des.sourceforge.net/index.html)
-  - O Sistema Educacional de Datalog (DES) é um sistema de banco de dados com Datalog, SQL,        \
+  - O Sistema Educacional de Datalog (DES) é um sistema de banco de dados com Datalog, SQL, <br/>
   Álgebra Relacional, Cálculo Relacional e Cálculo de Conjuntos como linguagens de consulta
   - Possui uma interface gráfica em Java Desktop
   - Última atualização: Jan 2019
@@ -80,7 +80,7 @@ São eles:
   ```
 
 - [pyDatalog](https://sites.google.com/site/pydatalog/home)
-  - Caracteriza-se pela adição do paradigma de programação em lógica como extensão da linguagem  de\
+  - Caracteriza-se pela adição do paradigma de programação em lógica como extensão da linguagem  de <br/>
   programação Python
   - Última atualização: 24 Jan 2016
   - Exemplos de sintaxe:
@@ -96,11 +96,11 @@ São eles:
   ```
 
 - [Learn Datalog Today](http://www.learndatalogtoday.org/)
-  - Trata-se de um tutorial interativo com o objetivo de ensinar um dialeto de Datalog feito para  \
+  - Trata-se de um tutorial interativo com o objetivo de ensinar um dialeto de Datalog feito para <br/>
   utilização do banco de dados [Datomic](https://www.datomic.com/)
-  - Datomic é descrito como uma solução para nuvem AWS com características de um banco de dados    \
+  - Datomic é descrito como uma solução para nuvem AWS com características de um banco de dados <br/>
   transacional, com tipo de dados flexíveis, escalável e com queries enriquecidas
-  - O dialeto de Datalog utiliza-se através linguagem de programação [Clojure](https://clojure.org/),\
+  - O dialeto de Datalog utiliza-se através linguagem de programação [Clojure](https://clojure.org/), <br/>
   a qual é compilada para Java bytecode e interpretada pela JVM
   - Última atualização: 18 Jun 2019
   - Exemplos de sintaxe:
@@ -132,7 +132,7 @@ São eles:
 
 ### Referências:
 
-1. Datalog Educational System: http://des.sourceforge.net/index.html
-2. AbcDatalog: http://abcdatalog.seas.harvard.edu/
-3. pyDatalog: https://sites.google.com/site/pydatalog/home
-4. Learn Datalog Today: http://www.learndatalogtoday.org/
+1. Datalog Educational System: [http://des.sourceforge.net/index.html](http://des.sourceforge.net/index.html)
+2. AbcDatalog: [http://abcdatalog.seas.harvard.edu/](http://abcdatalog.seas.harvard.edu/)
+3. pyDatalog: [https://sites.google.com/site/pydatalog/home](https://sites.google.com/site/pydatalog/home)
+4. Learn Datalog Today: [http://www.learndatalogtoday.org/](http://www.learndatalogtoday.org/)
