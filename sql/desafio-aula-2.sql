@@ -71,4 +71,3 @@ where cerveja not in (
   select cerveja from venda where bar <> 'Pires'
 )
 ;
-
