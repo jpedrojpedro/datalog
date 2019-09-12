@@ -27,25 +27,25 @@ estão armazenadas, mas podem ser formadas com base nos fatos, ao aplicar mecani
 baseados nas especificações da regra. Um ponto interessante com relação as regras é a possibilidade <br/>
 de recursão.
 
-Com isso, podemos estabelecer como definição que banco de dados dedutivos são aqueles em que existe um <br/>
-mecanismo de inferência, incluindo recursão.
+Com isso, podemos estabelecer como definição que banco de dados dedutivos são aqueles em que existe <br/>
+um mecanismo de inferência, incluindo recursão.
 
 ### Banco de Dados Orientado a Objetos:
 
-O termo orientação a objetos vêm das linguagens de programação com essa característica (LPOO). Um objeto <br/>
-possui dois componentes: estado (valor) e comportamento (operações). LPOO possui objetos transientes, que <br/>
-existem apenas durante a execução do programa. Já um banco de dados orientado a objetos (BDOO) podem <br/>
-adicionar a capacidade de persistir os objetos.
+O termo orientação a objetos vêm das linguagens de programação com essa característica (LPOO). Um <br/>
+objeto possui dois componentes: estado (valor) e comportamento (operações). LPOO possui objetos <br/>
+transientes, que existem apenas durante a execução do programa. Já um banco de dados orientado a <br/>
+objetos (BDOO) podem adicionar a capacidade de persistir os objetos.
 
 Outros conceitos importantes em LPOO são: herança e hierarquias entre dados e operações. Essas duas <br/>
 características, em especial, permitem e promovem o reuso das definições de tipos existentes em novos <br/>
-tipos de objetos. Ainda há outras questões, tais como: identificação única dos objetos, construtores de <br/>
-tipo de dados, encapsulamento de operações, polimorfismo e sobrecarga de operador.
+tipos de objetos. Ainda há outras questões, tais como: identificação única dos objetos, construtores <br/>
+de tipo de dados, encapsulamento de operações, polimorfismo e sobrecarga de operador.
 
 Para cobrir tais exigências demandadas pela OO, houve necessidade da extensão da linguagem SQL, <br/>
 conhecida como SQL/Object. Após, foram incorporadas na sintaxe mais recente da linguaguem SQL:2008. <br/>
-Além da adequação em nível de linguagem, foi proposto o mapeamento de esquemas entidade relacionamento <br/>
-para esquemas banco de dados de objetos.
+Além da adequação em nível de linguagem, foi proposto o mapeamento de esquemas entidade <br/>
+relacionamento para esquemas banco de dados de objetos.
 
 ### Referências:
 
