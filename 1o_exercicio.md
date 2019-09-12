@@ -1,24 +1,24 @@
-## 1ª Avaliação
+## 1º Exercício
 
-Aluno: João Pedro Valladão Pinheiro\
+Aluno: João Pedro Valladão Pinheiro \
 Email: [jpinheiro@puc-rio.br](mailto:jpinheiro@puc-rio.br)
 
 ### Descrição:
 
-1) uma busca na web por sistemas Datalog existentes para testarmos
-2) se possível experimentar um exemplo qualquer de Datalog bem simples para verificar como funciona
-3) complementar com alguns dos limites de SQL e ou linguagens relacionais
+Pesquisa sobre Sistemas Datalog existentes e disponíveis para uso e/ou teste. Pode ser web-based   \
+ou com instalador para uso local. Resumir sobre o sistema, eventuais limites, como se faz para     \
+usar, eventuais dicas de sintaxe e, se possível, mostrar como rodar uma consulta recursiva como a  \
+do fecho transitivo.
 
 ### Resultados:
 
-#### 1. e 2.
-
-Foram encontrados **quatro** sistemas que abordam a linguagem Datalog de maneiras distintas. São eles:
+Foram encontrados **quatro** sistemas que abordam a linguagem Datalog de maneiras distintas.       \
+São eles:
 
 - [Datalog Educational System](http://des.sourceforge.net/index.html)
-  - O Sistema Educacional de Datalog (DES) é um sistema de banco de dados dedutíveis com Datalog, \
-  SQL, Álgebra Relacional, Cálculo Relacional e Cálculo de Conjuntos como linguagens de consulta
-  - Possui uma interface gráfica em Java
+  - O Sistema Educacional de Datalog (DES) é um sistema de banco de dados com Datalog, SQL,        \
+  Álgebra Relacional, Cálculo Relacional e Cálculo de Conjuntos como linguagens de consulta
+  - Possui uma interface gráfica em Java Desktop
   - Última atualização: Jan 2019
   - Exemplos de sintaxe:
   
@@ -61,19 +61,19 @@ Foram encontrados **quatro** sistemas que abordam a linguagem Datalog de maneira
 
 - [AbcDatalog](http://abcdatalog.seas.harvard.edu/)
   - Trata-se de uma implementação da linguagem de programação em lógica Datalog em Java
-  - Suporta funcionalidades (des)-unificação explícita de termos e negação estratificada
-  - Possui finalidade acadêmica e pedagógica, mantida pela Universidade Harvard
+  - Suporta funcionalidades como (des)-unificação explícita de termos e negação estratificada
+  - Possui finalidade acadêmica e pedagógica, mantida pela Harvard University
   - Última atualização: 01 Fev 2019
   - Exemplos de sintaxe:
-  
+
   ```java
     name(alice).
     name(bob).
     name(world).
     hello(X) :- name(X).
-    // ---
+    /* ********** */
     hello(X)?
-    // ---
+    /* ********** */
     hello(alice)
     hello(bob)
     hello(world)
@@ -100,8 +100,8 @@ Foram encontrados **quatro** sistemas que abordam a linguagem Datalog de maneira
   utilização do banco de dados [Datomic](https://www.datomic.com/)
   - Datomic é descrito como uma solução para nuvem AWS com características de um banco de dados    \
   transacional, com tipo de dados flexíveis, escalável e com queries enriquecidas
-  - O dialeto de Datalog utiliza-se da linguagem de programação [Clojure](https://clojure.org/), a \
-  qual é compilada para Java bytecode e interpretada pela JVM
+  - O dialeto de Datalog utiliza-se através linguagem de programação [Clojure](https://clojure.org/),\
+  a qual é compilada para Java bytecode e interpretada pela JVM
   - Última atualização: 18 Jun 2019
   - Exemplos de sintaxe:
   
@@ -130,6 +130,9 @@ Foram encontrados **quatro** sistemas que abordam a linguagem Datalog de maneira
     [[26757714973567138]]
   ```
 
-#### 3.
+### Referências:
 
-TODO: utilizar anotações das discussões em classe
+1. Datalog Educational System: http://des.sourceforge.net/index.html
+2. AbcDatalog: http://abcdatalog.seas.harvard.edu/
+3. pyDatalog: https://sites.google.com/site/pydatalog/home
+4. Learn Datalog Today: http://www.learndatalogtoday.org/
